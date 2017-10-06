@@ -21,10 +21,16 @@ body {
 }
 
 #logo_accueil {
-
     position:absolute;
-    margin-left: 45%;
+    width: 99.5%;
     margin-top:1%;
+    
+}
+#logo_accueil img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
     
 }
 #partie_centrale {
@@ -49,8 +55,9 @@ body {
 
 .p_info{
     text-align: justify;
-    margin-left: 20px;
-    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
 }
 
 h2{
