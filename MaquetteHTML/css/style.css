@@ -9,6 +9,8 @@ and open the template in the editor.
 */
 
 body {
-    
-    
+    color:white;
+    background-color:black;
+    background-image:url(../images/fond.png);
+    background-size: 100%;
 }
