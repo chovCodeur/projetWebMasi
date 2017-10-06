@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>SeeU</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> 
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
         <link rel="stylesheet" href="css/style_chat_nonconnecte.css" />
-        
+        <link rel="icon" type="image/png" href="images/favicon.png" />       
+    
     </head>
     <body>
         <aside id="aside">
-            <img id="logo" alt="logo" src="images/logo.png"/>
+            <img id="logo" alt="logo" src="images/favicon.png"/>
             <div id="salon">Salon n°1234</div>
             <div id="participants">Participants</div>
             <ul id="listeParticipants">
@@ -18,10 +20,11 @@
                 <li>Luc</li>
                 <li>Geneviève</li>
                 <li>Capucine</li>
+                <li id="user">Francis</li>
             </ul>
             
             <div class="type-1">
-                <a href="" class="btn btn-1">
+                <a href="" class="bouton bouton-1">
                   <span class="txt">Au revoir</span>
                   <span class="round"><i class="fa fa-chevron-right"></i></span>
                 </a>
@@ -36,36 +39,39 @@
             
         </aside>
         <section id="section">
-            <table>
-                <tr>
-                    <td>
-                        <img alt="camera 1" src="images/avatar.png">
-                        <div class="volume">
-                            <input type="range" min="0" max="100" value="50"/>
-                        </div>
-                    </td>
-                    <td>
-                        <img alt="camera 2" src="images/avatar.png">
-                        <div class="volume">
-                            <input type="range" min="0" max="100" value="50"/>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img alt="camera 3" src="images/avatar.png">
-                        <div class="volume">
-                            <input type="range" min="0" max="100" value="50"/>
-                        </div>
-                    </td>
-                    <td>
-                        <img alt="camera 4" src="images/avatar.png">
-                        <div class="volume">
-                            <input type="range" min="0" max="100" value="50"/>
-                        </div>
-                    </td>
-                </tr>
-            </table>
+            <div class="row">
+                <div class="col-md-4 camera">
+                    <img alt="camera 1" src="images/avatar.png">
+                    <div class="volume">
+                        <input type="range" min="0" max="100" value="50"/>
+                    </div>
+                </div>
+                <div class="col-md-4 camera">
+                    <img alt="camera 1" src="images/avatar.png">
+                    <div class="volume">
+                        <input type="range" min="0" max="100" value="50"/>
+                    </div>
+                </div>
+                <div class="col-md-4 camera">
+                    <img alt="camera 1" src="images/avatar.png">
+                    <div class="volume">
+                        <input type="range" min="0" max="100" value="50"/>
+                    </div>
+                </div>
+                <div class="w-100"></div>
+                <div class="col-md-6 camera">
+                    <img alt="camera 1" src="images/avatar.png">
+                    <div class="volume">
+                        <input type="range" min="0" max="100" value="50"/>
+                    </div>
+                </div>
+                <div class="col-md-6 camera">
+                    <img alt="camera 1" src="images/avatar.png">
+                    <div class="volume">
+                        <input type="range" min="0" max="100" value="50"/>
+                    </div>
+                </div>
+            </div>
         </section>
     </body>
 </html>
