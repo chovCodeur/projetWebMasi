@@ -12,7 +12,7 @@ html {
   padding:0;
   background: url(../images/fond.png) no-repeat center fixed; 
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  background-size: cover; /* version standardisée */
+  background-size: cover; /* version standardisï¿½e */
 }
 body {
     font-family: arial;
