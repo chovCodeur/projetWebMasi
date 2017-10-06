@@ -9,7 +9,15 @@ and open the template in the editor.
         <title>TODO supply a title</title>
         <meta charset="windows-1252">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="css/style_accueil_nonconnecte.css">
+
+        <script src="js/jquery-3.2.1.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+         <link rel="stylesheet" type="text/css" href="css/style_accueil_nonconnecte.css">
+
     </head>
     <body>
         <div id="logo_accueil"><img src="images/logo.png" height="200" width="200"/></div>
@@ -19,10 +27,24 @@ and open the template in the editor.
         <div id="partie_centrale">
             <table id="tableau_accueil">
                 <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                
+                    <td>
+                        <h2>NOTRE SITE</h2>
+                        <div class="div_info">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt ligula id justo dapibus, sed lobortis mauris egestas. Nunc elementum pharetra molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ullamcorper tortor. In imperdiet vel lectus ac elementum. Sed luctus molestie lacus non aliquet. Curabitur pulvinar felis in vestibulum tincidunt. Cras pellentesque convallis libero, nec malesuada leo tincidunt quis. Donec tempor ante ut accumsan imperdiet. Duis maximus augue id neque aliquet, sit amet viverra dui varius. Quisque auctor imperdiet mi, sed molestie neque dictum quis. Mauris nec fringilla mauris. Suspendisse potenti. Mauris ac sapien placerat, placerat arcu quis, gravida enim. Aliquam dapibus velit mollis, facilisis ligula vel, convallis dui.
+                        </div>
+                    </td>
+                    <td>
+                        <h2>REJOIGNEZ</h2>
+                        <div class="div_info">
+                            <form>
+                                <label>ID : </label>
+                                <input type="text" name="id"><br>
+                                <label>Mot de passe : </label>
+                                <input type="password" name="password">
+                            </form>
+                        </div>
+                    </td>
+                </tr>      
             </table>
         </div>
     </body>
