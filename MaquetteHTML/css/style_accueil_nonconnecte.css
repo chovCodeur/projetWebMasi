@@ -30,13 +30,13 @@ body {
 #partie_centrale {
     margin-top:250px;
     position: absolute;
-    width: 100%;
-    height:100%;
+    width: 99.5%;
+    height:70%;
 }
 
 #tableau_accueil {
     width: 100%;
-    height:50%;
+    height:75%;
 }
 
 #tableau_accueil td:first-child{
