@@ -17,5 +17,14 @@ body {
 
 #logo_accueil {
     position:absolute;
+    margin-left: 45%;
+    margin-top:1%;
     
+}
+#partie_centrale {
+    margin-top:250px;
+    position: absolute;
+}
+#img_barre {
+    height: 500px;
 }
