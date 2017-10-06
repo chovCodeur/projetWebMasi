@@ -7,16 +7,21 @@ and open the template in the editor.
     Created on : 6 oct. 2017, 14:11:36
     Author     : Kevin
 */
-
+html { 
+  margin:0;
+  padding:0;
+  background: url(../images/fond.png) no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
 body {
+    font-family: arial;
     color:white;
     background-color:black;
-    background-image:url(../images/fond.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
 }
 
 #logo_accueil {
+    width: 100%;
     position:absolute;
     margin-left: 45%;
     margin-top:1%;
@@ -31,4 +36,16 @@ body {
     height: 500px;
     /*margin-left: 962px;*/
     margin-left: 50%;
+}
+
+#partie_centrale_gauche {
+    float: left;
+    background-color: green;
+    width:50%;
+}
+#partie_centrale_droite {
+    float:right;
+    background-color: red;
+    margin-left: 50%;
+    width: 50%;
 }
