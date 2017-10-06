@@ -1,0 +1,51 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#logo {
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align:center;
+    overflow:hidden;
+}
+
+#aside {
+    float: left;
+    background-color: #4527A0;
+    height: 100%;
+    color: white;
+}
+
+#section {
+    background-color: blue;
+}
+
+#salon {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#participants {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+li {
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+#boutonAuRevoir {
+    float: right;
+    margin-right: 20px;
+}
