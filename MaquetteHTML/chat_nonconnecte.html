@@ -4,7 +4,9 @@
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
         <link rel="stylesheet" href="css/style_chat_nonconnecte.css" />
+        
     </head>
     <body>
         <aside id="aside">
@@ -17,13 +19,53 @@
                 <li>Geneviève</li>
                 <li>Capucine</li>
             </ul>
-            <input id="boutonAuRevoir" type="button" value="Au revoir"/>
+            
+            <div class="type-1">
+                <a href="" class="btn btn-1">
+                  <span class="txt">Au revoir</span>
+                  <span class="round"><i class="fa fa-chevron-right"></i></span>
+                </a>
+            </div>
+            
+            <br/>
+            <div id="volumeGeneral">
+                <p id="texteVolumeGeneral">Volume général</p>
+                <input type="range" min="0" max="100" value="50" oninput="document.getElementById('AfficheRange').textContent=value" />
+                <span id="AfficheRange">50</span>
+            </div>
+            
         </aside>
         <section id="section">
-            <div id="camera1">Salut 1</div>
-            <div id="camera2">Salut 2</div>
-            <div id="camera3">Salut 3</div>
-            <div id="camera4">Salut 4</div>
+            <table>
+                <tr>
+                    <td>
+                        <img alt="camera 1" src="images/avatar.png">
+                        <div class="volume">
+                            <input type="range" min="0" max="100" value="50"/>
+                        </div>
+                    </td>
+                    <td>
+                        <img alt="camera 2" src="images/avatar.png">
+                        <div class="volume">
+                            <input type="range" min="0" max="100" value="50"/>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img alt="camera 3" src="images/avatar.png">
+                        <div class="volume">
+                            <input type="range" min="0" max="100" value="50"/>
+                        </div>
+                    </td>
+                    <td>
+                        <img alt="camera 4" src="images/avatar.png">
+                        <div class="volume">
+                            <input type="range" min="0" max="100" value="50"/>
+                        </div>
+                    </td>
+                </tr>
+            </table>
         </section>
     </body>
 </html>
