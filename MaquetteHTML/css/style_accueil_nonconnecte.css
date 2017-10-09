@@ -49,7 +49,7 @@ body {
     border-right: 5px white solid;
 }
 
-#tableau_accueil td:nth-child(2){
+#tableau_accueil td{
     vertical-align: top;
 }
 
@@ -67,7 +67,7 @@ body {
 h2{
     text-align: center;
 }
-#rejoindre_chat{
+.formulaire_accueil{
     width: 40%;
     text-align: center;
     vertical-align: top;
