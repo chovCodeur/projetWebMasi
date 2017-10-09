@@ -49,6 +49,10 @@ body {
     border-right: 5px white solid;
 }
 
+#tableau_accueil td:nth-child(2){
+    vertical-align: top;
+}
+
 #tableau_accueil td{
     width: 50%;
 } 
@@ -69,6 +73,7 @@ h2{
     vertical-align: top;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 25px;
 }
 
 label {
