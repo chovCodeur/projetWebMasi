@@ -51,11 +51,8 @@ body {
 
 #tableau_accueil td{
     vertical-align: top;
-}
-
-#tableau_accueil td{
     width: 50%;
-} 
+}
 
 .p_info{
     text-align: justify;
@@ -84,7 +81,11 @@ label {
 }
 
 #menu {
-    float: right;
-    margin-top: 10px;
-    margin-right: 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    
 }
+#menu a {
+   color : white;
+}    
