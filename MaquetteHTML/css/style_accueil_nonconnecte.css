@@ -82,3 +82,9 @@ label {
     float: left;
     text-align: left;
 }
+
+#menu {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
