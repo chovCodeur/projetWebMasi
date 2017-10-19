@@ -224,19 +224,3 @@ a .round i {
     font-size: 3rem;
     padding-top: 10px;
 }
-
-
-
-
-
-
-// non co
-div>img {
-    padding: 30px;
-}
-
-#admin:after {
-   content: '\f219';
-   font-family: FontAwesome;
-   margin-left: 10px;
-}
