@@ -15,6 +15,7 @@ html {
   background-size: cover; /* version standardisée */
 }
 body {
+    width: 99.5%;  
     font-family: arial;
     color:white;
     background-color:black;
