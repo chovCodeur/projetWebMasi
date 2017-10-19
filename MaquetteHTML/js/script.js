@@ -7,8 +7,8 @@ $(function() {
     $('.fa-user-circle').click(function (e) { 
         $('#page_accueil').removeClass('blur-out');
         $('#page_accueil').addClass('blur-in');
-        $('.pop-up').show();
         $('.pop-up').fadeIn(1000);
+        $('.pop-up').show();
 
             $('.close-button').click(function (e) { 
         
