@@ -35,34 +35,34 @@ body {
 
 @media screen and (min-width: 1024px) {
     div>img {
-        height: 257px;
+        height: 281px;
         width: auto;
     }
 }
 @media screen and (min-width: 1280px) {
     div>img {
-        height: 337px;
+        height: 257px;
         width: auto;
     }
 }
 
 @media screen and (min-width: 1440px) {
     div>img {
-        height: 387px;
+        height: 347px;
         width: auto;
     }
 }
 
 @media screen and (min-width: 1680px) {
     div>img {
-        height: 462px;
+        height: 420px;
         width: auto;
     }
 }
 
 @media screen and (min-width: 1920px) {
     div>img {
-        height: 537px;
+        height: 437px;
         width: auto;
     }
 }
