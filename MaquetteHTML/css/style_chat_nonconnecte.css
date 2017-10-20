@@ -77,6 +77,10 @@ div>img {
    margin-left: 10px;
 }
 
+#user {
+    text-decoration: underline;
+}
+
 #salon {
     margin-top: 20px;
     text-align: center;
