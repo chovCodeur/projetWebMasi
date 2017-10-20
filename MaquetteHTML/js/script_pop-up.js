@@ -9,9 +9,7 @@ $(function() {
         $('#page_accueil').addClass('blur-in');
         $('.pop-up').fadeIn(1000);
         $('.pop-up').show();
-
             $('.close-button').click(function (e) { 
-        
             $('.pop-up').fadeOut(700);
             $('#page_accueil').removeClass('blur-in');
             $('#page_accueil').addClass('blur-out');

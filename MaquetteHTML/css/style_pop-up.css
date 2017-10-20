@@ -167,12 +167,6 @@ and open the template in the editor.
     }
 }
 
-.content {
-    width: 650px;
-    margin: 0 auto;
-    padding-top: 100px;
-}
-
 .pop-up span {
     color: dimgray;
 }
@@ -251,6 +245,7 @@ and open the template in the editor.
 
 .pop-up h2 {
     color: black;
+    padding-bottom: 25px;
 }
 
 #tableau_popup {
@@ -269,22 +264,24 @@ and open the template in the editor.
 .pop-up form input[type="password"], 
 .pop-up form input[type="text"], 
 .pop-up form input[type="email"]{
-
     width: auto;
-  
     margin-bottom: 32px;
     padding: 16px;
-  
     color: #333;
-
     border: 1px solid #ccc;
     border-radius: 5px;
-
     outline: 0;
 }
 
 .pop-up form button[type="submit"] {
-   
+    margin-bottom: 32px;
+    padding: 16px;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.pop-up form input[type="button"] {
     margin-bottom: 32px;
     padding: 16px;
     color: #333;
@@ -305,3 +302,4 @@ and open the template in the editor.
 .pop-up form input[type="password"]:hover {
     background-color: #ccc;
 }
+
