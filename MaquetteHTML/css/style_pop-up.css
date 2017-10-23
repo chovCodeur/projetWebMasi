@@ -259,6 +259,7 @@ and open the template in the editor.
 .pop-up h2 {
     color: black;
     padding-bottom: 25px;
+    padding-top: 25px;
 }
 
 #tableau_popup {

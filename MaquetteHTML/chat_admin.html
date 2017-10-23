@@ -28,7 +28,7 @@
             </ul>
             
             <div class="type-1">
-                <a href="" class="bouton bouton-1">
+                <a class="bouton bouton-1">
                   <span class="txt">Au revoir</span>
                   <span class="round"><i class="fa fa-chevron-right"></i></span>
                 </a>
@@ -84,16 +84,30 @@
                 </div>
             </div>
         </section>
-        <div class="row pop-up little-popup">
+        <div class="row pop-up little-popup" id='popup-flag'>
             <div class="box small-6 large-centered">
                 <a href="#" class="close-button">&#10006;</a>
                 <div id="partie_centrale_popup">
                     <h2>FELICITATIONS !</h2>
                     <p>
-                        Vous avez été nommé Administrateur du Salon 0485 par XX-XXXXXXXXX.
+                        Vous avez promu XXXX en tant qu'Administrateur du Salon 0485.
                     </p>
                     <form action="" method="post">
                         <button type="submit">C'est noté</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row pop-up little-popup" id='popup-exit'>
+            <div class="box small-6 large-centered">
+                <a href="#" class="close-button">&#10006;</a>
+                <div id="partie_centrale_popup">
+                    <h2>ATTENTION !</h2>
+                    <p>
+                        Il faut selectionner un nouvel administrateur du salon avant de le quitter !
+                    </p>
+                    <form action="" method="post">
+                        <button type="submit">Bien sûr !</button>
                     </form>
                 </div>
             </div>
