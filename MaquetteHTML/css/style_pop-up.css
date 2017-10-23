@@ -173,24 +173,37 @@ and open the template in the editor.
 
 @media screen and (max-width: 800px) {
     .pop-up {
-    position: absolute;
-    width: 40%;
-    padding-top: 10%;
-    min-width: 400px;
-    z-index: 2;
-    display: none;
-}
+        position: absolute;
+        width: 40%;
+        /* padding-top: 10%;*/
+        left:30%;
+        min-width: 400px;
+        z-index: 2;
+        display: none;
+    }
+    .big-popup{
+        top:10%;
+    }
+    .little-popup{
+        top:35%;
+    }
 }
 @media screen and (min-width: 801px) {
     .pop-up {
-    position: absolute;
-    width: 40%;
-    display: none;
-    padding-top: 10%;
-    left:30%;
-    min-width: 400px;
-    z-index: 2;
-}
+        position: absolute;
+        width: 40%;
+        display: none;
+        /*padding-top: 10%;*/
+        left:30%;
+        min-width: 400px;
+        z-index: 2;
+    }   
+    .big-popup{
+        top:20%;
+    }
+    .little-popup{
+        top:35%;
+    }
 }
 
 .box {

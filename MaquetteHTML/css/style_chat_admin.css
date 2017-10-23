@@ -23,6 +23,7 @@ body {
     background-color: #4527A0;
     height: 100%;
     color: white;
+    position: relative;
 }
 
 #section {
@@ -31,38 +32,39 @@ body {
     text-align:center;
     overflow:hidden;
     height: 100%;
+    position: relative;
 }
 
 @media screen and (min-width: 1024px) {
     div>img {
-        height: 281px;
+        height: 200px;
         width: auto;
     }
 }
 @media screen and (min-width: 1280px) {
     div>img {
-        height: 257px;
+        height: 235px;
         width: auto;
     }
 }
 
 @media screen and (min-width: 1440px) {
     div>img {
-        height: 347px;
+        height: 325px;
         width: auto;
     }
 }
 
 @media screen and (min-width: 1680px) {
     div>img {
-        height: 420px;
+        height: 400px;
         width: auto;
     }
 }
 
 @media screen and (min-width: 1920px) {
     div>img {
-        height: 437px;
+        height: 415px;
         width: auto;
     }
 }
