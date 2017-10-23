@@ -19,3 +19,18 @@ $(function() {
     });
 });
  
+ $(function() {
+    $('.promoteIcon').click(function (e) { 
+        $('aside,section').removeClass('blur-out');
+        $('aside,section').addClass('blur-in');
+        $('.pop-up').fadeIn(1000);
+        $('.pop-up').show();
+            $('.close-button').click(function (e) { 
+            $('.pop-up').fadeOut(700);
+            $('aside,section').removeClass('blur-in');
+            $('aside,section').addClass('blur-out');
+            e.stopPropagation();
+
+        });
+    });
+});
