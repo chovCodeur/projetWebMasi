@@ -67,3 +67,19 @@ $(function() {
         });
    });
 });
+
+$(function() {
+    $('.fa-times').click(function (e) { 
+    $('aside,section').removeClass('blur-out');
+        $('aside,section').addClass('blur-in');
+        $('#popup-ban').fadeIn(1000);
+        $('#popup-ban').show();
+            $('.close-button').click(function (e) { 
+            $('#popup-ban').fadeOut(700);
+            $('aside,section').removeClass('blur-in');
+            $('aside,section').addClass('blur-out');
+            e.stopPropagation();
+
+        });
+   });
+});
