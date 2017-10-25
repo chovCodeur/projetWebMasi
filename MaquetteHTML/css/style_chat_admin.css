@@ -20,10 +20,11 @@ body {
 
 #aside {
     float: left;
-    background-color: #4527A0;
+    background-color:#2a2a2b;
     height: 100%;
     color: white;
     position: relative;
+    box-shadow: 8px 8px 12px #555; 
 }
 
 #section {
@@ -64,7 +65,7 @@ body {
 
 @media screen and (min-width: 1920px) {
     div>img {
-        height: 415px;
+        height: 426px;
         width: auto;
     }
 }
@@ -109,10 +110,10 @@ li {
 }
 
 .bouton-1 {
-  background-color: #F27935;
+  background-color: red;
 }
 .bouton-1 .round {
-  background-color: #f59965;
+    background-color: #ff3333;
 }
 
 .type-1 {
@@ -229,4 +230,10 @@ a .round i {
     padding-right: 20px;
     font-size: 3rem;
     padding-top: 10px;
+}
+
+#grp_button {
+    position: absolute;
+    right: 0;
+    padding-right: 15px;
 }

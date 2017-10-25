@@ -20,9 +20,10 @@ body {
 
 #aside {
     float: left;
-    background-color: #4527A0;
+    background-color: #2a2a2b;
     height: 100%;
     color: white;
+    box-shadow: 8px 8px 12px #555; 
 }
 
 #section {
@@ -113,10 +114,10 @@ li {
 }
 
 .bouton-1 {
-  background-color: #F27935;
+  background-color: red;
 }
 .bouton-1 .round {
-  background-color: #f59965;
+    background-color: #ff3333;
 }
 
 .type-1 {
