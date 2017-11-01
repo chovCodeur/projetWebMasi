@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2017-09-18" view-index="0" gantt-divider-location="501" resource-divider-location="300" version="2.8.5" locale="fr">
+    <description/>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="352" order="0"/>
+        <field id="tpd4" name="Date de début" width="64" order="1"/>
+        <field id="tpd5" name="Date de fin" width="81" order="2"/>
+        <option id="taskLabelUp" value=""/>
+        <option id="taskLabelRight" value="resources"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Analyse" meeting="false" start="2017-09-25" duration="25" complete="0" expand="true">
+            <task id="3" name="Personas" color="#8cb6ce" meeting="false" start="2017-09-25" duration="5" complete="0" expand="true"/>
+            <task id="5" name="BrainStorming" color="#8cb6ce" meeting="false" start="2017-09-25" duration="5" complete="0" expand="true"/>
+            <task id="9" name="StoryBoard" color="#8cb6ce" meeting="false" start="2017-10-02" duration="5" complete="0" expand="true"/>
+            <task id="11" name="Wireframe - Pencil" color="#8cb6ce" meeting="false" start="2017-10-02" duration="5" complete="0" expand="true"/>
+            <task id="17" name="Maquette HTML" meeting="false" start="2017-10-09" duration="15" complete="0" expand="true">
+                <task id="27" name="Création de la page d'accueil non connecté" color="#8cb6ce" meeting="false" start="2017-10-09" duration="5" complete="0" expand="true"/>
+                <task id="29" name="Création de la page d'accueil connecté" color="#8cb6ce" meeting="false" start="2017-10-09" duration="5" complete="0" expand="true"/>
+                <task id="31" name="Création de la page salon de chat utilisateur" color="#8cb6ce" meeting="false" start="2017-10-09" duration="5" complete="0" expand="true"/>
+                <task id="33" name="Création de la page salon de chat administrateur" color="#8cb6ce" meeting="false" start="2017-10-16" duration="5" complete="0" expand="true"/>
+                <task id="35" name="Création de Pop-in en javascript" color="#8cb6ce" meeting="false" start="2017-10-16" duration="5" complete="0" expand="true"/>
+                <task id="37" name="Intégration des pop-in dans les autres pages html" color="#8cb6ce" meeting="false" start="2017-10-23" duration="5" complete="0" expand="true"/>
+            </task>
+        </task>
+        <task id="1" name="Choix de la technologie" meeting="false" start="2017-10-09" duration="25" complete="0" expand="true">
+            <task id="23" name="Recherche sur WebRTC" color="#8cb6ce" meeting="false" start="2017-10-09" duration="5" complete="0" expand="true"/>
+            <task id="25" name="Tests de divers exemples d'utilisation de WebRTC" color="#8cb6ce" meeting="false" start="2017-10-16" duration="20" complete="0" expand="true"/>
+            <task id="39" name="Choix final de la technologie" color="#8cb6ce" meeting="false" start="2017-11-06" duration="5" complete="0" expand="true"/>
+        </task>
+        <task id="41" name="Préparation soutenance Novembre" meeting="false" start="2017-10-30" duration="5" complete="0" expand="true">
+            <task id="44" name="Préparation diaporama" color="#8cb6ce" meeting="false" start="2017-10-30" duration="5" complete="0" expand="true"/>
+            <task id="46" name="Rédaction compte-rendu" color="#8cb6ce" meeting="false" start="2017-10-30" duration="5" complete="0" expand="true"/>
+        </task>
+        <task id="48" name="Soutenance à Mi-projet" color="#8cb6ce" meeting="true" start="2017-11-09" duration="0" complete="0" expand="true"/>
+        <task id="20" name="Développement" color="#8cb6ce" meeting="false" start="2017-11-13" duration="30" complete="0" expand="true"/>
+        <task id="50" name="Soutenance de Fin de projet" color="#8cb6ce" meeting="true" start="2018-01-09" duration="0" complete="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
